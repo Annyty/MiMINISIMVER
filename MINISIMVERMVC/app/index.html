@@ -1,0 +1,50 @@
+﻿<!DOCTYPE html>
+<html ng-app="miniSimverApp">
+<head>
+    <meta charset="utf-8" />
+    <title>Estados</title>
+
+
+    <link href="../Content/bootstrap.css" rel="stylesheet" />
+
+</head>
+<body>
+    <div class="container">
+        <nav class="collapse navbar-collapse" role="navigation">
+            <ul class="nav navbar-nav">
+                <li class="active">
+                    <a href="#/estado">Estados</a>
+                </li>
+                
+            </ul>
+
+
+        </nav>
+                
+    </div>
+    <div ng-view>
+
+        <div>
+
+            <!--Angular-->
+            <script src="../Scripts/angular.js"></script>
+            <script src="../Scripts/angular-route.js"></script>
+            <!--<script src="Scripts/angular-animate.js"></script>-->
+            <!--/Angular-->
+            <!--Módulo-->
+
+            <script src="app.js"></script>
+            <!--/Modulo-->
+            <!--Factory-->
+
+            <script src="services/EstadosFactory.js"></script>
+
+            <!--/Factory-->
+            <!--Controller-->
+
+            <script src="controllers/estadoController.js"></script>
+            <!--/Controller-->
+        </div>
+    </div>
+</body>
+</html>
