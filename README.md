@@ -1,0 +1,2 @@
+# MiMINISIMVER
+Proyecto bloqueador cuidado!!!
